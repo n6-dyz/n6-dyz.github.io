@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>n6-dyz | Android Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #0d1117; /* Full Dark Background */
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            max-width: 500px;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #3ddc84; /* Android Green */
+            margin-bottom: 20px;
+            box-shadow: 0 0 15px rgba(61, 220, 132, 0.4);
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+        p {
+            color: #8b949e;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        .icon-item {
+            text-decoration: none;
+            color: #ffffff;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        .icon-item i {
+            font-size: 35px;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .icon-item span {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #8b949e;
+        }
+        .icon-item:hover {
+            transform: translateY(-5px);
+            color: #3ddc84;
+        }
+        .icon-item:hover span {
+            color: #3ddc84;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Ganti URL di bawah dengan link foto profil atau logo Anda -->
+        <img src="https://github.com/n6-dyz.png" alt="Logo" class="logo">
+        
+        <h1>n6-dyz</h1>
+        <p>Android Developer | System Utilities Specialist</p>
+
+        <div class="icon-grid">
+            <a href="about.html" class="icon-item">
+                <i class="fas fa-user-circle"></i>
+                <span>About</span>
+            </a>
+            <a href="projects.html" class="icon-item">
+                <i class="fas fa-code"></i>
+                <span>Projects</span>
+            </a>
+            <a href="https://github.com/n6-dyz" class="icon-item">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="mailto:emailanda@gmail.com" class="icon-item">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+            <a href="#" class="icon-item">
+                <i class="fas fa-terminal"></i>
+                <span>Stack</span>
+            </a>
+            <a href="#" class="icon-item">
+                <i class="fas fa-share-alt"></i>
+                <span>Social</span>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
